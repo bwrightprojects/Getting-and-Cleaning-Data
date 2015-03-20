@@ -15,9 +15,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 **The _run_analysis.R_ script performs the following steps to clean up the data**
 
-* Merges the training (./UCI HAR Dataset/train/X_train.txt) and test (./UCI HAR Dataset/test/X_test.txt) sets to create one data set resulting in a 10299X561 data frame. 
+* Merges the training (./UCI HAR Dataset/train/X_train.txt) and test (./UCI HAR Dataset/test/X_test.txt) sets to create one data set resulting in a 10299X561 data frame.
 * Merges the training (./UCI HAR Dataset/train/Y_train.txt) and test(./UCI HAR Dataset/test/Y_test.txt) sets to create one data set resulting in a 10299X1 data frame.
 * Merges the subjects (./UCI HAR Dataset/train/subject_train.txt) and test (./UCI HAR Dataset/test/subject_text.txt) sets to create one data set resulting in a 10299X1 data frame.
+
 
 * Read the features.txt file from the “./UCI HAR Dataset" folder and stores the data in a variable called *features*. Then extracts only the mean and standard deviation. The result is a 10299x66 data frame. Finally subsets the dataset with the 66 corresponding columns.
 

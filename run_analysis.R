@@ -73,4 +73,4 @@ for (s in 1:numSubjects) {
                 row = row+1
         }
 }
-write.table(result, "dataset_averages_means.txt")
+write.table(result, "dataset_averages_means.txt", row.name=FALSE)

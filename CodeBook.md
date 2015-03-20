@@ -3,9 +3,14 @@ Getting and Cleaning Data Course Project Code Book
 
 This file outlines the data, variables and transformations performed to clean the data and produce a tidy data set.
 
-**Source of the original data:** https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+**Source of the original data** 
 
-**Original description:** http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+**Original description** 
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+======================================================
 
 The run_analysis.R script performs the following steps to clean up the data:
 

@@ -12,7 +12,7 @@
 # setwd("../Project")
 # projurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 # projfile <- file.path(getwd(), "Dataset.zip")
-# download.file(url, file, method = "curl")
+# download.file(projurl, projfile, method = "curl")
 
 # create combined sets and reuse tmp vars to save memory
 

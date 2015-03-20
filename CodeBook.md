@@ -20,10 +20,10 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
    * Merges the training (**_./UCI HAR Dataset/train/Y_train.txt_**) and test(**_./UCI HAR Dataset/test/Y_test.txt_**) sets to create one data set resulting in a 10299X1 data frame.
    * Merges the subjects (**_./UCI HAR Dataset/train/subject_train.txt_**) and test (**_./UCI HAR Dataset/test/subject_text.txt_**) sets to create one data set resulting in a 10299X1 data frame.
 
-* Read the features.txt file from the “**_./UCI HAR Dataset_**" folder and stores the data in a variable called *features*. Then extracts only the mean and standard deviation. The result is a 10299x66 data frame. Finally subsets the dataset with the 66 corresponding columns.
+* Read the features.txt file from the **_./UCI HAR Dataset_** folder and stores the data in a variable called *features*. Then extracts only the mean and standard deviation. The result is a 10299x66 data frame. Finally subsets the dataset with the 66 corresponding columns.
 
 
-* Reads “**_./UCI HAR Dataset/activity_labels.txt_** and applies descriptive activity names to name the activities in the data set:
+* Reads **_./UCI HAR Dataset/activity_labels.txt_** and applies descriptive activity names to name the activities in the data set:
 
        > walking
         

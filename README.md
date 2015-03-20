@@ -6,7 +6,7 @@ This is a repository containing files for the Getting and Cleaning Data project
 A full description is available at the site where the data was obtained:
   http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-Download file and unzip. Using default folder in zip UCI HAR Dataset and the script will look for files there.
+Download file and unzip. Using default folder in zip **_UCI HAR Dataset_** and the script will look for files there.
 
      setwd("../Project")
      projurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"

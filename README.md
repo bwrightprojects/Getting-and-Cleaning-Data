@@ -11,7 +11,7 @@ Download file and unzip. Using default folder in zip **_UCI HAR Dataset_** and t
      setwd("../Project")
      projurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
      projfile <- file.path(getwd(), "Dataset.zip")
-     download.file(url, file, method = "curl")
+     download.file(projurl, projfile, method = "curl")
 
 [Original details from Coursera](https://class.coursera.org/getdata-012/human_grading/view/courses/973499/assessments/3/submissions)
 

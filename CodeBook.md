@@ -10,7 +10,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 **Original description** 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-—-
+
+****************
 
 **The _run_analysis.R_ script performs the following steps to clean up the data**
 
@@ -31,28 +32,29 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
         
        > sitting
         
-        >standing
+       > standing
         
-        >laying
+       > laying
 
 * Clean the activity names in the second column of activity. Make all names to lower cases. If the name has an underscore between letters, remove the underscore and brackets ().  We then merge the 10299X66 data frame containing features with the 10299X1 data frames containing the activity labels and the subject Id’s.  The result is saved to disk as *cleaned_merged_data.txt*. first column contains the Subject Id’s, next the activity names and the remaining 66 columns are the measurements.  Attribute will look like the following:
 
 
-        tbodyacc-mean-x 
+       > tbodyacc-mean-x 
         
-        tbodyacc-mean-y 
+       > tbodyacc-mean-y 
         
-        tbodyacc-mean-z 
+       > tbodyacc-mean-z 
         
-        tbodyacc-std-x 
+       > tbodyacc-std-x 
         
-        tbodyacc-std-y 
+       > tbodyacc-std-y 
         
-        tbodyacc-std-z 
+       > tbodyacc-std-z 
         
-        tgravityacc-mean-x 
+       > tgravityacc-mean-x 
         
-        tgravityacc-mean-y
+       > tgravityacc-mean-y
 
 
 *  The final step of the script creates a new independent today data set with the average of each measurement for each activity and each subject. The results are saved to disk as *dataset_averages_means.txt*.  The size of the data frome is 180x68.  The first column is the Subject Id’s, the next column contains activity names and then the averages for each of the 66 attributes are in remaining 66 columns.  
+

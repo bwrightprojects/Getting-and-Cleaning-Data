@@ -10,9 +10,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 **Original description** 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-======================================================
+—-
 
-The run_analysis.R script performs the following steps to clean up the data:
+**The _run_analysis.R_ script performs the following steps to clean up the data**
 
 * Merges the training (./UCI HAR Dataset/train/X_train.txt) and test (./UCI HAR Dataset/test/X_test.txt) sets to create one data set resulting in a 10299X561 data frame. 
 * Merges the training (./UCI HAR Dataset/train/Y_train.txt) and test(./UCI HAR Dataset/test/Y_test.txt) sets to create one data set resulting in a 10299X1 data frame.
@@ -23,17 +23,17 @@ The run_analysis.R script performs the following steps to clean up the data:
 
 * Reads “./UCI HAR Dataset/activity_labels.txt and applies descriptive activity names to name the activities in the data set:
 
-        walking
+       > walking
         
-        walkingupstairs
+       > walkingupstairs
         
-        walkingdownstairs
+       > walkingdownstairs
         
-        sitting
+       > sitting
         
-        standing
+        >standing
         
-        laying
+        >laying
 
 * Clean the activity names in the second column of activity. Make all names to lower cases. If the name has an underscore between letters, remove the underscore and brackets ().  We then merge the 10299X66 data frame containing features with the 10299X1 data frames containing the activity labels and the subject Id’s.  The result is saved to disk as *cleaned_merged_data.txt*. first column contains the Subject Id’s, next the activity names and the remaining 66 columns are the measurements.  Attribute will look like the following:
 

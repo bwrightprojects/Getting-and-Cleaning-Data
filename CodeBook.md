@@ -23,7 +23,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 * Read the features.txt file from the **_./UCI HAR Dataset_** folder and stores the data in a variable called *features*. Then extracts only the mean and standard deviation. The result is a 10299x66 data frame. Finally subsets the dataset with the 66 corresponding columns.
 
 
-* Reads **_./UCI HAR Dataset/activity_labels.txt_** and applies descriptive activity names to name the activities in the data set:
+* Reads **_./UCI HAR Dataset/activity_labels.txt_** and applies descriptive activity names to name the activities in the data set.  
 
        > walking
         

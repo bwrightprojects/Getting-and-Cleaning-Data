@@ -56,11 +56,11 @@ write.table(cleanDataset, "clean_merged_data.txt")
 
 # 5. Creates a 2nd, independent tidy data set with the average of each variable for each activity and each subject.
 
-uniqueSubjects = unique(S_TestTrain)[,1]
-numSubjects = length(unique(S_TestTrain)[,1])
-numActivities = length(activities[,1])
-numCols = dim(cleanDataset)[2]
-result = cleanDataset[1:(numSubjects*numActivities), ]
+uniqueSubjects <- unique(S_TestTrain)[,1]
+numSubjects <- length(unique(S_TestTrain)[,1])
+numActivities <- length(activities[,1])
+numCols <- dim(cleanDataset)[2]
+result <- cleanDataset[1:(numSubjects*numActivities), ]
 
 row <- 1
 for (s in 1:numSubjects) {
